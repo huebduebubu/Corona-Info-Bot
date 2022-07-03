@@ -7,9 +7,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 Bot = Client(
     "Corona-Info-Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = "5409233419:AAEgRrOhh8WxU3Dbzrqv_pj0fk-BJzAIKo8",
+    api_id = 10837069,
+    api_hash = "8c369144619c9c8fd6a55a2a35f2203d"
 )
 
 API = "https://api.sumanjay.cf/covid/?country="
